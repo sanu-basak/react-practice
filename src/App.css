@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+}
+
+.main-table {
+  width: 960px;
+  height: 500px;
+  border: 1px solid black;
+  margin: 0 auto;
+  margin-top: 10px;
+  overflow: scroll;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+}
+
+.pagination {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.pagination-btn {
+  padding: 10px;
+  background-color: lightgreen;
+  color: white;
+  cursor: pointer;
+  margin: 20px;
+}
+th,td {
+  border: 1px solid grey;
+  padding: 2px;
+}
+
+.product-logo {
+  width: 150px;
+  height: auto;
+}
+
+table {
+  width: 100%;
+}
+
+
+
+
