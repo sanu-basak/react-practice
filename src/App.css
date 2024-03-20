@@ -65,6 +65,38 @@ table {
   background-color: lightcyan;
 }
 
+.progress-main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 7px;
+  margin-top: 20px;
+}
+
+.progress {
+  display: flex;
+  flex-direction: column;
+  height: 20px;
+  width: 500px;
+  background-color: lightgreen;
+  border: 1px solid black;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.progress div {
+  height: 100%;
+  background-color: red;
+
+}
+
+.progress span {
+  position: absolute;
+  width: 27%;
+  display: flex;
+  justify-content: center;
+}
+
 
 
 
