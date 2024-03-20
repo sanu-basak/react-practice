@@ -3,7 +3,8 @@ import './App.css';
 // import FileExplorer from './components/FileExplorer';
 // import { fileExplorerData } from "./utils/fileExplorerData"
 import { useEffect, useState } from "react"
-import LikeButton from './components/LikeButton';
+import JobBoard from './components/JobBoard';
+// import LikeButton from './components/LikeButton';
 // import CustomUseMemo from './components/CustomUseMemo';
 // import ProgressBar from './components/ProgressBar';
 // import ProductPagination from './components/ProductPagination';
@@ -26,7 +27,8 @@ function App() {
 
         {/* <ProgressBar getValue={value}/> */}
         {/* <CustomUseMemo/> */}
-        <LikeButton/>
+        {/* <LikeButton/> */}
+        <JobBoard/>
         
       </>
    )
