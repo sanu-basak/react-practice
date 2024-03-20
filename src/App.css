@@ -97,7 +97,37 @@ table {
   justify-content: center;
 }
 
+:root {
+  --default-color: #888;
+  --active-color: #f00;
+}
 
+.like-btn {
+  margin: 20px;
+  padding: 4px 8px;
+  background-color: white;
+  width: 100px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border: 2px solid var(--default-color);
+  border-radius: 32px;
+  color: var(--default-color);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.like-btn:hover {
+  border-color: var(--active-color);
+  color: var(--active-color);
+}
+
+.liked, liked:hover {
+  background-color: var(--active-color);
+  border-color: var(--default-color);
+  color: #fff;
+}
 
 
 
