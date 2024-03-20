@@ -42,6 +42,30 @@ table {
   width: 100%;
 }
 
+.folder {
+  margin-top: 6px;
+  background-color: lightgrey;
+  display: flex;
+  justify-content: space-between;
+  padding: 3px;
+  width: 400px;
+  cursor: pointer;
+}
+
+.folder > span {
+  margin: 0 5px 2px 0;
+  padding-left: 15px;
+}
+
+.file {
+  margin-top: 5px;
+  padding-left: 15px;
+  display: flex;
+  flex-direction: column;
+  background-color: lightcyan;
+}
+
+
 
 
 
