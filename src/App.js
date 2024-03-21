@@ -5,6 +5,7 @@ import './App.css';
 import { useEffect, useState } from "react"
 // import JobBoard from './components/JobBoard';
 import ToDoList from './components/ToDoList';
+import Timer from './components/Timer';
 // import LikeButton from './components/LikeButton';
 // import CustomUseMemo from './components/CustomUseMemo';
 // import ProgressBar from './components/ProgressBar';
@@ -30,7 +31,8 @@ function App() {
         {/* <CustomUseMemo/> */}
         {/* <LikeButton/> */}
         {/* <JobBoard/> */}
-        <ToDoList/>
+        {/* <ToDoList/> */}
+        <Timer/>
         
       </>
    )
