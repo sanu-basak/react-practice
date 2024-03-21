@@ -74,8 +74,8 @@ const ToDoList = () => {
         <div className="job-main-container">
             <h1>Todo List</h1>
             <div className="search-input">
-                <input type="text" placeholder="Enter you todo item" value={items} onChange={(e) => setItems(e.target.value)}/>
-                <button onClick={handlerAddTodo}>Add List</button>
+                <input className="text-input" type="text" placeholder="Enter you todo item" value={items} onChange={(e) => setItems(e.target.value)}/>
+                <button className="text-btn" onClick={handlerAddTodo}>Add List</button>
             </div>
             <div className="todo-list">
                 {

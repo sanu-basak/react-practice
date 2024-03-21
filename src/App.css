@@ -166,4 +166,18 @@ table {
   border: 1px solid black;
 }
 
+.search-input {
+  padding: 10px;
+  text-align: center;
+}
+
+.text-input { 
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.text-btn { 
+  padding: 5px;
+  margin-right: 10px;
+}
 
