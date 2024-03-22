@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-.main-table {
+.main-table{
   width: 960px;
   height: 500px;
   border: 1px solid black;
@@ -179,5 +179,41 @@ table {
 .text-btn { 
   padding: 5px;
   margin-right: 10px;
+}
+
+.result li[data-correct="true"] {
+   color: green;
+}
+
+.result li[data-correct="false"] {
+  color: red;
+}
+
+.main-container {
+  text-align: center;
+}
+
+.option-container {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+}
+
+.option-container li {
+  list-style: none;
+}
+
+.option-container button {
+  padding: 10px;
+  width: 60%;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.result li {
+  list-style: none;
+  padding: 10px;
+  font-weight: 700;
 }
 
